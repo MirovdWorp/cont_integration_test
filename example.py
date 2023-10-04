@@ -7,3 +7,7 @@ def subtract(a, b):
 def test_add():
     ''' This is a test for the function add'''
     assert add(1,2) == 3
+
+def test_subtract():
+    ''' This is a test for the function subtract '''
+    assert subtract(2,3) == -1
